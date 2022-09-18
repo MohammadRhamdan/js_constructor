@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+td {
+  padding: 10px;
+}
+
+.widthTdLeft {
+  width: 20px;
+}
+
+.widthTdRight {
+  width: 150px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+
+
+.books {
+  background: #ebe6e6;
+  /* box-shadow:  22px 22px 53px #b8b8b8; */
+              /* -22px -22px 53px #ffffff; */
+  padding: 20px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.books h2 {
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: black;
+}
+
+.input {
+  background: #ebe6e6;
+  margin-top: -40px;
+  padding: 0 20px;
+  display: flex;
+  column-gap: 115px;
+}
+
+
+
+input {
+  margin-top: 40px;
+  padding: 8px;
+  outline: none;
+  background-color: rgb(10, 128, 175);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: rgb(3, 163, 226);
+}
